@@ -162,7 +162,7 @@ This project demonstrates practical sentiment analysis using both traditional an
 ## 👩‍💻 Author
 
 ```text
-Name   : Your Name
+Name   : Subhamika Chhetri
 Course : Text Analytics & NLP (TANLP)
 Branch : B.Tech CSE (Data Science)
 ```
