@@ -17,7 +17,6 @@ nltk.download('vader_lexicon', quiet=True)
 vader = SentimentIntensityAnalyzer()
 
 device = 0 if torch.cuda.is_available() else -1
-
 roberta_pipe = pipeline(
     "sentiment-analysis",
     model="cardiffnlp/twitter-roberta-base-sentiment-latest",
@@ -30,7 +29,7 @@ label_map = {"positive": "Positive", "neutral": "Neutral", "negative": "Negative
 INPUT_FILE = 'data/majhitar_active_places_only.csv'
 df = pd.read_csv(INPUT_FILE)
 
-# --- VADER ---
+# --- 1. VADER ---
 print("Benchmarking VADER...")
 v_start = time.perf_counter()
 
@@ -44,7 +43,7 @@ df['Vader_Pred'] = df['Vader_Score'].apply(
 
 v_time = time.perf_counter() - v_start
 
-# --- RoBERTa ---
+# --- 2. RoBERTa ---
 print("Benchmarking RoBERTa...")
 r_start = time.perf_counter()
 
@@ -55,7 +54,7 @@ df['Roberta_Score'] = [r['score'] for r in results]
 
 r_time = time.perf_counter() - r_start
 
-# --- Metrics ---
+# --- 3. Metrics ---
 agreement = (df['Vader_Pred'] == df['Roberta_Label']).mean() * 100
 
 print("\n" + "="*50)
@@ -69,11 +68,11 @@ print(f"Speed Difference    : {r_time/v_time:.1f}x slower")
 print("="*50)
 
 # --- Plotting ---
-plt.style.use('seaborn-v0_8-whitegrid')
+plt.style.use('ggplot')
 fig, axes = plt.subplots(2, 2, figsize=(16, 10))
-fig.suptitle('VADER vs RoBERTa Comparison', fontsize=16)
+fig.suptitle('Comparative Analysis: VADER vs RoBERTa', fontsize=16)
 
-# Plot 1: Sentiment Distribution
+# Plot 1: Sentiment Comparison
 comp_df = pd.DataFrame({
     'Sentiment': ['Positive', 'Neutral', 'Negative'],
     'VADER': [
@@ -98,9 +97,9 @@ latency = pd.DataFrame({
 })
 
 sns.barplot(x='Model', y='Time (ms)', data=latency, ax=axes[0, 1])
-axes[0, 1].set_title('Inference Time per Review')
+axes[0, 1].set_title('Inference Latency per Review')
 
-# Plot 3: Agreement Heatmap
+# Plot 3: Heatmap
 ct = pd.crosstab(df['Vader_Pred'], df['Roberta_Label'])
 sns.heatmap(ct, annot=True, fmt='d', cmap='YlGnBu', ax=axes[1, 0])
 axes[1, 0].set_title('Model Agreement Heatmap')
@@ -109,7 +108,6 @@ axes[1, 0].set_title('Model Agreement Heatmap')
 label_map_num = {'Negative': -1, 'Neutral': 0, 'Positive': 1}
 df['Roberta_Num'] = df['Roberta_Label'].map(label_map_num)
 
-# Add jitter
 df['Roberta_Jitter'] = df['Roberta_Num'] + np.random.uniform(-0.2, 0.2, len(df))
 
 sns.scatterplot(
@@ -127,11 +125,11 @@ axes[1, 1].set_xticks([-1, 0, 1])
 axes[1, 1].set_xticklabels(['Negative', 'Neutral', 'Positive'])
 axes[1, 1].set_title('VADER vs RoBERTa Scores')
 
+# --- Save Outputs ---
 plt.tight_layout()
-plt.savefig("results/Final_Comparison_Dashboard.png", dpi=150)
+plt.savefig("results/Final_Comparison_Dashboard.png", dpi=300)
 plt.show()
 
-# --- Save CSV ---
 df.to_csv("results/final_comparison_data.csv", index=False)
 
-print("\nAnalysis complete. Results saved in /results folder.")
+print("\nAnalysis complete. Results saved in 'results/' folder.")
