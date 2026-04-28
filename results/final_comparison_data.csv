@@ -1,0 +1,81 @@
+Restaurant,Review,Vader_Score,Vader_Pred,Roberta_Label,Roberta_Score,Roberta_Num,Roberta_Jitter
+Imperfecto Restro Lounge,"Great ambience and music, food was delicious",0.8316,Positive,Positive,0.9851884841918945,1,0.9846226613192359
+Imperfecto Restro Lounge,Nice place but a bit overpriced,0.2263,Positive,Neutral,0.38093751668930054,0,0.023749684065315163
+Imperfecto Restro Lounge,Service was slow but food quality was good,0.5927,Positive,Positive,0.745037853717804,1,0.8719742951160946
+Imperfecto Restro Lounge,"Loved the vibe, perfect for evening hangout",0.8225,Positive,Positive,0.986909806728363,1,1.094416941424575
+Imperfecto Restro Lounge,"Average experience, expected more",0.0,Neutral,Negative,0.7711007595062256,-1,-0.893237819078869
+Grill and Chill Majhitar,Amazing grilled chicken and quick service,0.5859,Positive,Positive,0.9812837243080139,1,1.1683225697514756
+Grill and Chill Majhitar,Food was tasty but seating is limited,-0.3291,Negative,Positive,0.8797658681869507,1,0.868162928259089
+Grill and Chill Majhitar,Best place for snacks in Majhitar,0.6369,Positive,Positive,0.7231739163398743,1,1.1177709454817866
+Grill and Chill Majhitar,"Service was okay, food was good",0.5859,Positive,Positive,0.9609982967376709,1,0.9864735856999329
+Grill and Chill Majhitar,Affordable and tasty food,0.0,Neutral,Positive,0.9210177063941956,1,1.1680966906000196
+Punjabi Kitchen,"Authentic Punjabi taste, loved the butter chicken",0.5994,Positive,Positive,0.9528715014457703,1,0.9343491455344233
+Punjabi Kitchen,Too crowded but food is worth it,0.3291,Positive,Positive,0.6544765830039978,1,1.0194783025676089
+Punjabi Kitchen,Service is slow during rush hours,0.0,Neutral,Negative,0.8535502552986145,-1,-0.8290439531176604
+Punjabi Kitchen,Great quantity and reasonable price,0.6249,Positive,Positive,0.9315773248672485,1,0.9416626542495319
+Punjabi Kitchen,"Food was average, nothing special",-0.3089,Negative,Negative,0.8202252984046936,-1,-0.9678357811713765
+Coffee Break,Best coffee spot with great ambience,0.8519,Positive,Positive,0.9816909432411194,1,1.14663248011504
+Coffee Break,Nice place to relax with friends,0.8316,Positive,Positive,0.9610926508903503,1,1.1234784292483988
+Coffee Break,Too noisy sometimes,-0.1779,Negative,Negative,0.6268438100814819,-1,-0.8963234675559626
+Coffee Break,Loved the cold coffee and snacks,0.5994,Positive,Positive,0.9770494103431702,1,0.9266212526421977
+Coffee Break,Good vibe but service could improve,0.7003,Positive,Positive,0.8409265279769897,1,1.0784132402069218
+Flavour Of Spice,Delicious food and very clean place,0.7713,Positive,Positive,0.9755496382713318,1,0.8947053338011136
+Flavour Of Spice,"Amazing taste, highly recommended",0.7089,Positive,Positive,0.9771803021430969,1,1.0480087185251623
+Flavour Of Spice,Small place but great quality food,0.7684,Positive,Positive,0.9518854022026062,1,0.8011733796439575
+Flavour Of Spice,Service was quick and friendly,0.4939,Positive,Positive,0.9450041651725769,1,0.9784429632878657
+Flavour Of Spice,One of the best in Majhitar,0.6369,Positive,Positive,0.9461354613304138,1,0.9585682064874295
+Rasoi Republic,Excellent homemade style food,0.5719,Positive,Positive,0.9717499613761902,1,0.979734222755118
+Rasoi Republic,Very limited menu but tasty,-0.1522,Negative,Positive,0.7581384181976318,1,1.1857736505828882
+Rasoi Republic,Loved the simplicity and taste,0.5994,Positive,Positive,0.9669723510742188,1,1.0594438860206126
+Rasoi Republic,Good for quick meals,0.4404,Positive,Positive,0.8928467035293579,1,0.907118647600102
+Rasoi Republic,"Decent food, nothing extraordinary",0.0,Neutral,Positive,0.8262554407119751,1,1.165922519558318
+Relax Point Restaurant cum Bar,Great place to chill with friends,0.802,Positive,Positive,0.9729660749435425,1,0.873324970584601
+Relax Point Restaurant cum Bar,Nice drinks and food options,0.4215,Positive,Positive,0.9497888088226318,1,1.0369456846466072
+Relax Point Restaurant cum Bar,Music was too loud,0.0,Neutral,Negative,0.6351631283760071,-1,-0.9217525515860774
+Relax Point Restaurant cum Bar,Service was slow,0.0,Neutral,Negative,0.8133611679077148,-1,-1.042682525695479
+Relax Point Restaurant cum Bar,Good ambience overall,0.4404,Positive,Positive,0.9492089152336121,1,1.1666834869226148
+BITE & BREW,Good snacks and beverages,0.4404,Positive,Positive,0.8901507258415222,1,1.130892988894933
+BITE & BREW,Small place but cozy,0.0,Neutral,Positive,0.729425847530365,1,0.8230172408247763
+BITE & BREW,Food was average,0.0,Neutral,Negative,0.7827935218811035,-1,-1.0963850036804081
+BITE & BREW,Nice place for quick bites,0.4215,Positive,Positive,0.9476847648620605,1,1.129090128729077
+BITE & BREW,Service could be better,0.4404,Positive,Neutral,0.48716387152671814,0,0.1416159610635222
+Down town Restro & Bar,Great nightlife experience,0.6249,Positive,Positive,0.976314902305603,1,1.0713914197833025
+Down town Restro & Bar,Food was tasty and drinks were good,0.4404,Positive,Positive,0.9748456478118896,1,0.8637935621551417
+Down town Restro & Bar,Bit expensive but worth it,0.3291,Positive,Neutral,0.5202327370643616,0,0.16809442334137714
+Down town Restro & Bar,Service was slow,0.0,Neutral,Negative,0.8133611679077148,-1,-0.993628816884691
+Down town Restro & Bar,Loved the ambience,0.5994,Positive,Positive,0.9742498397827148,1,1.0194687409241843
+Tashi Shaa-Khang Chinese Restaurant,Authentic Chinese taste,0.0,Neutral,Positive,0.7238950133323669,1,0.9585686519377403
+Tashi Shaa-Khang Chinese Restaurant,Noodles were amazing,0.5859,Positive,Positive,0.9743812680244446,1,0.8316686123416019
+Tashi Shaa-Khang Chinese Restaurant,Portion size was good,0.4404,Positive,Positive,0.9017132520675659,1,0.8143734013794158
+Tashi Shaa-Khang Chinese Restaurant,Service was okay,0.2263,Positive,Positive,0.7955162525177002,1,0.9660581108202924
+Tashi Shaa-Khang Chinese Restaurant,Nice place for Chinese food,0.4215,Positive,Positive,0.938262403011322,1,1.0792723337168133
+Biryani Kitchen Majhitar,Biryani was flavorful and tasty,0.0,Neutral,Positive,0.9570066332817078,1,0.9531513508909503
+Biryani Kitchen Majhitar,Too oily for my taste,0.0,Neutral,Negative,0.6420507431030273,-1,-1.1619930568347248
+Biryani Kitchen Majhitar,Good quantity and affordable,0.4404,Positive,Positive,0.857634961605072,1,0.8212283036520885
+Biryani Kitchen Majhitar,Average taste,0.0,Neutral,Negative,0.45467597246170044,-1,-0.9307535110694888
+Biryani Kitchen Majhitar,Quick service and decent food,0.0,Neutral,Positive,0.914920449256897,1,0.932681860710332
+Brunch Cafe,Perfect place for brunch,0.5719,Positive,Positive,0.9694316983222961,1,0.944933945655478
+Brunch Cafe,Loved the sandwiches and coffee,0.5994,Positive,Positive,0.9759352207183838,1,1.0429102786620206
+Brunch Cafe,Nice ambience,0.4215,Positive,Positive,0.921181321144104,1,1.141707432977887
+Brunch Cafe,Service was slow,0.0,Neutral,Negative,0.8133611679077148,-1,-1.0066476062407896
+Brunch Cafe,Good food but slightly expensive,0.2382,Positive,Positive,0.42642366886138916,1,0.9451597042500195
+Bliss N Taste,Tasty food and friendly staff,0.4939,Positive,Positive,0.9763359427452087,1,1.0043042454351796
+Bliss N Taste,Nice place for family,0.4215,Positive,Positive,0.9464657306671143,1,1.0845805277613707
+Bliss N Taste,Food was average,0.0,Neutral,Negative,0.7827935218811035,-1,-1.1334894518310035
+Bliss N Taste,Clean and hygienic,0.4019,Positive,Positive,0.664772629737854,1,1.1739201775235357
+Bliss N Taste,Service needs improvement,0.4588,Positive,Neutral,0.5197076797485352,0,-0.15111317948201297
+River View,Best view of the Teesta river while having dinner.,0.6369,Positive,Positive,0.9671117067337036,1,0.8510661346360262
+River View,"The outdoor seating is amazing, very peaceful vibe.",0.807,Positive,Positive,0.9842979311943054,1,0.8341164067928138
+River View,Food is good but you primarily go there for the location.,0.2382,Positive,Positive,0.7991368174552917,1,0.9650083574266313
+River View,"Service was a bit slow on Sunday, but the scenery makes up for it.",0.0,Neutral,Neutral,0.44457051157951355,0,0.18706120649594044
+River View,Great place for a quiet evening near the water.,0.6249,Positive,Positive,0.9674516916275024,1,0.94610450011134
+Oasis,"Very clean and hygienic place, perfect for students.",0.7713,Positive,Positive,0.9813690185546875,1,0.9553612451445253
+Oasis,Loved the variety of snacks and cold beverages.,0.5994,Positive,Positive,0.9770483374595642,1,0.8254759099832842
+Oasis,Quick service and very friendly staff.,0.5413,Positive,Positive,0.9601820111274719,1,0.9014007303835033
+Oasis,The interior is very modern and cozy.,0.0,Neutral,Positive,0.9594431519508362,1,1.0896871128858467
+Oasis,Affordable prices for the quality they provide.,0.0,Neutral,Positive,0.6001498699188232,1,1.1702498855995542
+Mana Cafe,"The best momos I have had in Majhitar, hands down.",0.6369,Positive,Positive,0.9820659756660461,1,1.1059306994439269
+Mana Cafe,"Small, intimate setting with very authentic local taste.",0.0,Neutral,Positive,0.8939427137374878,1,0.8752078293208468
+Mana Cafe,"Try their special tea, it is refreshing.",0.4019,Positive,Positive,0.9774374961853027,1,0.9291058947479609
+Mana Cafe,"Great hospitality, the owner is very kind.",0.8313,Positive,Positive,0.9724669456481934,1,0.9155851776590074
+Mana Cafe,Authentic flavors and very reasonable rates.,0.0,Neutral,Positive,0.9097442626953125,1,1.09483541596894
