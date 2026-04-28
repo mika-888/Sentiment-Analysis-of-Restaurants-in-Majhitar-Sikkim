@@ -15,8 +15,30 @@ Analyze model performance in terms of efficiency and reliability
 
 
 📂 Project Structure
+```text
 TANLP-Sentiment-Analysis/
-<pre> ```bash TANLP-Sentiment-Analysis/ │ ├── data/ │ └── majhitar_active_places_only.csv │ ├── models/ │ ├── vader_model.py │ ├── roberta_model.py │ ├── analysis/ │ └── comparison_dashboard.py │ ├── results/ │ ├── model1_vader_results.csv │ ├── model2_roberta_results.csv │ ├── model1_vader_plots.png │ ├── model2_roberta_plots.png │ └── Final_Comparison_Dashboard.png │ ├── requirements.txt ├── run_all.py └── README.md ``` </pre>
+│
+├── data/
+│   └── majhitar_active_places_only.csv
+│
+├── models/
+│   ├── vader_model.py
+│   ├── roberta_model.py
+│
+├── analysis/
+│   └── comparison_dashboard.py
+│
+├── results/
+│   ├── model1_vader_results.csv
+│   ├── model2_roberta_results.csv
+│   ├── model1_vader_plots.png
+│   ├── model2_roberta_plots.png
+│   └── Final_Comparison_Dashboard.png
+│
+├── requirements.txt
+├── run_all.py
+└── README.md
+```
 
 ⚙️ Models Used
 🔹 1. VADER (Baseline Model)
